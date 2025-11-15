@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def uppercase(str):
-    # Yığılmış nəticə
+    # Result
     result = ""
     for c in str:
         if 'a' <= c <= 'z':
