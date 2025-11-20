@@ -5,6 +5,6 @@ def no_c(my_string):
         if i == "c" or i == "C":
             continue
         else:
-            a+=i
+            a += i
     a = "".join(a)
     return a
