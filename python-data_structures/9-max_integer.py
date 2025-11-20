@@ -7,7 +7,7 @@ def max_integer(my_list=[]):
             if my_list[j] > my_list[j + 1]:
                 my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
 
-    return my_list(-1)
+    return my_list[-1]
 
 
 
