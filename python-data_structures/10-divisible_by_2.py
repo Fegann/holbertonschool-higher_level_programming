@@ -6,4 +6,5 @@ def divisible_by_2(my_list=[]):
             a[i] = True
         else:
             a[i] = False
+    my_list = a
     return a
