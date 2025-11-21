@@ -3,4 +3,4 @@ def safe_print_integer(value):
     try:
         return "{:d}".format(value)
     except:
-        pass
+        return False
