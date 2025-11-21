@@ -2,6 +2,6 @@
 def common_elements(set_1, set_2):
     a = []
     for i in set_1:
-        if i in set_s:
+        if i in set_2:
             a.append(i)
     return a
