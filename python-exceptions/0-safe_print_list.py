@@ -4,6 +4,7 @@ def safe_print_list(my_list=[], x=0):
     try:
         for i in range(x):
             a += str(my_list[i])
+        a = int(a)
         return a
     except:
         print("error")
