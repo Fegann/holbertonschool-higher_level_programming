@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 '''okey'''
-	
+
 
 class Rectangle:
     '''okey'''
 
     def __init__(self, width=0, height=0):
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     @property
     def width(self):
-        return self.__width
+        return self.width
 
     @width.setter
     def width(self, value):
@@ -23,7 +23,7 @@ class Rectangle:
 
     @property
     def height(self):
-        return self.__height
+        return self.height
 
     @height.setter
     def height(self, value):
