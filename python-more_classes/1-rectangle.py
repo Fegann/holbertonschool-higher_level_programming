@@ -6,24 +6,29 @@ class Rectangle:
     '''okey'''
 
     def __init__(self, width=0, height=0):
-        ''' o '''
         self.width = width
         self.height = height
 
+    @property
+    def width(self):
+        return self._width
+
     @width.setter
     def width(self, value):
-        ''' o  '''
         if not isinstance(value ,int):
             raise TypeError("width must be an integer")
-        elif value <= 0:
+        elif value < 0:
             raise ValueError("width must be  >= 0")
-        self.width = value
+        self._width = value
+
+    @property
+    def width(self):
+        return self._width
 
     @height.setter
     def height(self, value):
-        ''' o '''
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
-        elif value <= 0:
+        elif value < 0:
             raise ValueError("width must be  >= 0")
-        self.height = value
+        self._height = value
