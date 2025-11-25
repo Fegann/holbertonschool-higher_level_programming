@@ -2,4 +2,4 @@
 def lookup(obj):
     ''' okey '''
 
-    return obj.__dir__()
+    return obj.__doc__()
