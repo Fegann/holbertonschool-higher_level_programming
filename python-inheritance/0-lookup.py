@@ -2,4 +2,4 @@
 """okey"""
 def lookup(obj):
     ''' okey '''
-    obj.__dir__()
+    return dir(obj)
