@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 def lookup(obj):
     ''' okey '''
-    obj.__doc__()
+    obj.__dir__()
