@@ -52,5 +52,4 @@ class Rectangle:
         return "<{}.{:s} object at {:s}>".format(
             self.__class__.__module__,
             self.__class__.__name__,
-            hex(id(self))
-        )
+            hex(id(self)))
