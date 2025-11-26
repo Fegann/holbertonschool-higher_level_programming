@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-''' okey '''
-
+"""BaseGeometry and Rectangle classes"""
 
 class BaseGeometry:
-    ''' okey '''
+    """Base geometry class"""
 
     def area(self):
         raise Exception('area() is not implemented')
@@ -11,11 +10,12 @@ class BaseGeometry:
     def integer_validator(self, name, value):
         if type(value) is not int:
             raise TypeError("{} must be an integer".format(name))
-        elif value <= 0:
+        if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
 
+
 class Rectangle(BaseGeometry):
-    ''' okey '''
+    """Rectangle class"""
 
     def __init__(self, width, height):
         self.integer_validator("width", width)
