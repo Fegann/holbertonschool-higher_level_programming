@@ -3,6 +3,6 @@
 
 
 def is_same_class(obj, a_class):
-    ''' returns true if obj is subclass of a_class '''
+    ''' returns true if obj is instance of a_class '''
 
-    return issubclass(a_class, obj)
+    return isinstance(ob, a_class)
