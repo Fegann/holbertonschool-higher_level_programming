@@ -2,5 +2,7 @@
 ''' writes text to the file '''
 
 def write_file(filename="", text=""):
+    ''' okey '''
+
     with open(filename, encoding="UTF-8") as f:
         f.write(text)
