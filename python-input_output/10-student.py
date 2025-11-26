@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+''' okey'''
+
+
+class Student:
+    ''' okey '''
+
+    def __init__(self, first_name, last_name, age):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+
+    def to_json(self, attrs=None):
+        if attrs == None:
+            return obj.__dict__
+        d = {}
+        for key in attrs:
+            if key in self.__dict__:
+                d[key] = self.__dict__[key]
+        return d
