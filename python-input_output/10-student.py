@@ -12,7 +12,7 @@ class Student:
 
     def to_json(self, attrs=None):
         if attrs == None:
-            return obj.__dict__
+            return self.__dict__
         d = {}
         for key in attrs:
             if key in self.__dict__:
