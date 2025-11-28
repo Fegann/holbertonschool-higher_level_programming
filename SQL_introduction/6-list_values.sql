@@ -1,2 +1,2 @@
--- Show
-SHOW * FROM first_table;
+-- Select
+SELECT * FROM first_table;
