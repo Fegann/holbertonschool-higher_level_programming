@@ -1,5 +1,5 @@
 -- group by
-SELECT COUNT(id),score AS number
+SELECT score,COUNT(id) AS number
 FROM second_table
 GROUP BY score
 ORDER BY number DESC;
