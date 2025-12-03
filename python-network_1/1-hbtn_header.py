@@ -1,7 +1,7 @@
 #!/usr/bin/python3
+'''okey'''
 import urllib
 import sys
-'''okey '''
 
 if __name__ == "__main__":
     url = sys.argv[1]
