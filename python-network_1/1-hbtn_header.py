@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''okey'''
-import urllib
+import urllib.request
 import sys
 
 if __name__ == "__main__":
